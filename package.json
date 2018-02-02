@@ -6,6 +6,9 @@
   "scripts": {
     "test": "nodemon --exec 'mocha -R min'"
   },
+  "nodemonConfig": {
+    "ignore": ["node_modules/*"]
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
